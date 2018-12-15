@@ -14,7 +14,7 @@ var T = new Twit({
 //     console.log(data)
 //   })  
 
-var users = ["3608373454","986331243410350080"];
+var users = ["986331243410350080"];
 
 var stream = T.stream('statuses/filter', {follow: users});
 
